@@ -20,5 +20,7 @@ console.log(nameMy.concat(address[1]))
 //slice a string based on the index cordinates
 console.log(url.slice(0,9));
 
+//Backlit to provide string 
 
+console.log(`Hi My name is ${nameMy} and I Use the ${url}`)
 
