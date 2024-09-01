@@ -12,3 +12,13 @@ console.log(newurl.split('-'))
 let address = newurl.split('-');
 console.log(address[0])
 console.log(address[1])
+
+const nameMy=new String ('subhankar')
+console.log(nameMy.bold())
+//concat atstring without +
+console.log(nameMy.concat(address[1]))
+//slice a string based on the index cordinates
+console.log(url.slice(0,9));
+
+
+
