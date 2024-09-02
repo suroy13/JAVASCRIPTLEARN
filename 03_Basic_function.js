@@ -12,7 +12,7 @@ console.log("Hello Js")
 ///-------------------
 const user={
     name: "subhankar",
-    price: 999
+    prices: 999
 }
 
 function readObject(readFromObject){
@@ -20,3 +20,17 @@ function readObject(readFromObject){
 }
 
 console.log(readObject(user))
+//----------------------
+console.log(readObject({
+    name: "subhankar",
+    price: 999
+}))
+//------
+const myArrayNum=[10,20,30,40,50,60]
+function getTheArrayNumber(getArray){
+    return `the array number requested is ${getArray[2]}`
+
+}
+
+console.log (getTheArrayNumber(myArrayNum))
+
