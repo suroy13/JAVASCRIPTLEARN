@@ -43,8 +43,8 @@ const country = [
   let  nuclearPowerFinder;
 
   nuclearPowerFinder=country
-  .filter((country) => (country.nuclearPower === true ))
-  .map ((country) => (country.nameOfCountry ))
+  .filter((country) => (country.nuclearPower === true )) // filter to match the condition in terms of boolean
+  .map ((country) => (country.nameOfCountry )) // Implementing the map fucntion to find the value
 
 console.log(nuclearPowerFinder);
 
